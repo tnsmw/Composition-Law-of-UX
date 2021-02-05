@@ -18,6 +18,7 @@ h1 {
 }
 
 h1:hover {
+  color: #fff;
   animation: bounce;
   animation-duration: 1s;
 }
