@@ -1,9 +1,8 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   background-color: #1C698A;
-  max-height: 100%;
 }
 
 body {
@@ -25,12 +24,6 @@ h1 {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   align-items: center;
-}
-
-.grid-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .circle1 {
@@ -95,16 +88,15 @@ h1 {
 }
 
 .square11 {
+    animation: slideInDown;
+    animation-duration: 1s;
     background: #FFF174;
     width: 186px;
     height: 186px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 .square11:hover {
-    animation: bounce;
-    animation-duration: 1s;
+    animation: jello;
+    animation-duration: 0.5s;
 }
 
 .circle12 {
@@ -116,7 +108,7 @@ h1 {
 
 /* ==== iPhone X size (375px) ==== */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 440px) {
 
  html {
    margin-top:500px;

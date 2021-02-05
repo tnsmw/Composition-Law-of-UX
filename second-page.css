@@ -1,0 +1,66 @@
+
+html {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #1C698A;
+  max-height: 100%;
+}
+
+body {
+  padding:6rem 0;
+  color:#000;
+}
+
+h1 {
+  padding: 10px;
+  font-weight: 700;
+  color: #FF7474;
+  text-decoration: underline;
+}
+
+h1:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.grid-container {
+  display: inline-grid;
+  align-items: center;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square11 {
+    background: #FFF174;
+    width: 186px;
+    height: 186px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.square11:hover {
+    animation: bounce;
+    animation-duration: 1s;
+}
+
+/* ==== iPhone X size (375px) ==== */
+
+@media only screen and (max-width: 375px) {
+
+ html {
+   margin-top:500px;
+   margin-bottom:500px;
+   padding:0;
+  }
+
+}
