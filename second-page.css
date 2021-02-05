@@ -11,8 +11,8 @@ body {
 }
 
 h1 {
-  padding: 30px;
-  font-size: 50px;
+  padding: 37px;
+  font-size: 40px;
   font-weight: 700;
   color: #FF7474;
 }
@@ -57,18 +57,32 @@ a {
 .circle {
     background: #FF7474;
     border-radius: 50%;
-    width: 800px;
-    height: 800px;
-    justify-content: top left;
+    width: 700px;
+    height: 700px;
+    float: right;
+    shape-outside: inset(700px 700px 700px 700px round 700px);
 }
 
 h2 {
-  color: #fff;
+  color: #FF7474;
   font-size: 150px;
   font-weight: 700;
-  margin: 80px; 
+  margin: 80px;
+  margin-right: 500px;
 }
 
+h2:hover {
+  color: #252525;
+}
+
+p {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 80px;
+  margin-bottom: 0px;
+  line-height: 75px;
+}
 
 
 /* ==== iPhone X size (375px) ==== */
