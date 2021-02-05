@@ -11,6 +11,10 @@ body {
   color:#000;
 }
 
+h1 {
+  font-color: #FF7474;
+}
+
 .center {
   text-align: center;
 }
@@ -94,10 +98,13 @@ body {
     background: #FFF174;
     width: 186px;
     height: 186px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .square11:hover {
-  animation: bounce;
-  animation-duration: 1s;
+    animation: bounce;
+    animation-duration: 1s;
 }
 
 .circle12 {
