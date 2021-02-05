@@ -11,14 +11,15 @@ body {
 }
 
 h1 {
-  padding: 10px;
+  padding: 30px;
+  font-size: 50px;
   font-weight: 700;
   color: #FF7474;
-  text-decoration: underline;
 }
 
 h1:hover {
-  text-decoration: none;
+  animation: bounce;
+  animation-duration: 1s;
 }
 
 a {
@@ -52,6 +53,23 @@ a {
     animation: bounce;
     animation-duration: 1s;
 }
+
+.circle {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 800px;
+    height: 800px;
+    justify-content: top left;
+}
+
+h2 {
+  color: #fff;
+  font-size: 150px;
+  font-weight: 700;
+  margin: 80px; 
+}
+
+
 
 /* ==== iPhone X size (375px) ==== */
 
