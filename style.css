@@ -1,0 +1,120 @@
+
+html {
+  font-size: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #1C698A;
+  max-height: 100%;
+}
+
+body {
+  padding:5rem 0;
+  color:#000;
+}
+
+.center {
+  text-align: center;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-items: center;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle1 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+.circle2 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+.circle3 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+.circle4 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+.circle5 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+.circle6 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+.circle7 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+.circle8 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+.circle9 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+.circle10 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+
+.square11 {
+    background: #FFF174;
+    width: 186px;
+    height: 186px;
+}
+.square11:hover {
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.circle12 {
+    background: #FF7474;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+}
+
+/* ==== iPhone X size (375px) ==== */
+
+@media only screen and (max-width: 375px) {
+
+ html {
+   margin-top:500px;
+   margin-bottom:500px;
+   padding:0;
+  }
+
+}
