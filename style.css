@@ -106,14 +106,13 @@ h1 {
     height: 186px;
 }
 
-/* ==== iPhone X size (375px) ==== */
+/* ==== max width 550px ==== */
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 550px) {
 
- html {
-   margin-top:500px;
-   margin-bottom:500px;
-   padding:0;
+ main {
+   width: auto;
+   margin-top: 300px;
   }
 
 }

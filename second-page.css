@@ -86,14 +86,25 @@ p {
 }
 
 
-/* ==== iPhone X size (375px) ==== */
+/* ==== max width 550px ==== */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
 
- html {
-   margin-top:500px;
-   margin-bottom:500px;
-   padding:0;
-  }
+.square11 {
+    margin: 10px;
+}
+
+h2 {
+  width: auto;
+  margin-left: 20px;
+  font-size: 80px;
+}
+
+p {
+  width: auto;
+  font-size: 30px;
+  margin: 20px;
+  margin-bottom: 60px;
+}
 
 }
